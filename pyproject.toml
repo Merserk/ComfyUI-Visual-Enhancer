@@ -1,0 +1,23 @@
+[project]
+name = "comfyui-visual-enhancer"
+description = "Official ComfyUI integration for Visual Enhancer (VE_CLI.exe) - DLSS 5 Neural Rendering, DLSS Super Resolution, Ray Reconstruction, Frame Generation, RTX Video, and AI Restoration."
+version = "1.0.3"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = []
+classifiers = [
+    "Operating System :: Microsoft :: Windows",
+    "Environment :: GPU :: NVIDIA CUDA",
+]
+
+[project.urls]
+Repository = "https://github.com/Merserk/ComfyUI-Visual-Enhancer"
+Homepage = "https://github.com/Merserk/dlss5-visual-enhancer"
+Documentation = "https://github.com/Merserk/ComfyUI-Visual-Enhancer#readme"
+Issues = "https://github.com/Merserk/ComfyUI-Visual-Enhancer/issues"
+
+[tool.comfy]
+PublisherId = "merserk"
+DisplayName = "ComfyUI Visual Enhancer"
+Icon = ""
+includes = ["example_workflows", "workflows", "web"]
